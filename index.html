@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý kho hàng Smartphone</title>
+    <link rel="stylesheet" href="kiemthu.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Thêm sản phẩm Smartphone</h2>
+        <form id="productForm">
+            <input type="text" id="name" placeholder="Tên sản phẩm">
+            <input type="text" id="price" placeholder="Đơn giá">
+            <input type="text" id="origin" placeholder="Xuất xứ">
+            <input type="text" id="cpu" placeholder="CPU">
+            <input type="text" id="ram" placeholder="RAM (VD: 8GB)">
+            <input type="text" id="storage" placeholder="Dung lượng lưu trữ (VD: 256GB)">
+            <select id="type">
+                <option value="            ">             </option>
+                <option value="Smartphone">Smartphone</option>
+                <option value="Laptop">Laptop</option>
+            </select>
+            <input type="text" id="screenSize" placeholder="Kích thước màn hình (VD: 6.7 inch)">
+            <input type="text" id="battery" placeholder="Dung lượng PIN (mAh)">
+            <button type="button" onclick="addProduct()">Thêm sản phẩm</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script src="kiemthu.js"></script>
+</body>
+</html>
+
